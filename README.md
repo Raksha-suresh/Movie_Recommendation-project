@@ -1,1 +1,6 @@
-A Python-powered movie recommendation system that suggests similar movies based on a user’s input. It uses TF-IDF vectorization, cosine similarity, and movie metadata (title, genres, descriptions) from the MovieLens dataset. The project includes a simple Flask web interface where users can type any movie title and instantly get top recommendations.
+A Python-powered movie recommendation system that suggests similar movies based on a user’s input.
+Flask==2.3.2
+pandas==2.1.1
+scikit-learn==1.3.2
+scipy==1.11.1
+gunicorn==21.2.0
